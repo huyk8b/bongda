@@ -1,0 +1,41 @@
+.loi-404 {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--mau-den) 0%, var(--mau-do) 100%);
+  padding: var(--k-3);
+}
+
+.loi-body {
+  text-align: center;
+  max-width: 600px;
+}
+
+.loi-so {
+  font-size: 10rem;
+  font-weight: 900;
+  line-height: 1;
+  color: var(--mau-do);
+  margin-bottom: var(--k-4);
+}
+
+.loi-chu {
+  font-size: var(--c-4);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: var(--k-3);
+}
+
+.loi-mota {
+  font-size: var(--c-2);
+  color: var(--mau-trang-nhat);
+  margin-bottom: var(--k-5);
+  line-height: 1.6;
+}
+
+.loi-nut {
+  display: flex;
+  justify-content: center;
+}

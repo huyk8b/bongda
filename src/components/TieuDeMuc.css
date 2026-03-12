@@ -1,0 +1,33 @@
+.tieu-de {
+  margin-bottom: var(--k-5);
+}
+
+.tieu-de--trai {
+  text-align: left;
+}
+
+.tieu-de--giua {
+  text-align: center;
+}
+
+.tieu-de--phai {
+  text-align: right;
+}
+
+.tieu-de-nho {
+  display: block;
+  font-size: var(--c-1);
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--mau-do);
+  margin-bottom: var(--k-1);
+}
+
+.tieu-de-chinh {
+  font-size: var(--c-5);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}

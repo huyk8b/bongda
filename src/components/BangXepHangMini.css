@@ -1,0 +1,61 @@
+.bxg-mini {
+  background-color: var(--mau-xam);
+  border: var(--be-1) solid var(--mau-xam-nhat);
+}
+
+.bxg-mini-tieu-de {
+  padding: var(--k-3) var(--k-4);
+  border-bottom: var(--be-1) solid var(--mau-xam-nhat);
+  font-size: var(--c-1);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.bxg-list {
+  padding: var(--k-2) 0;
+}
+
+.bxg-row {
+  display: grid;
+  grid-template-columns: 30px 1fr auto;
+  gap: var(--k-2);
+  padding: var(--k-2) var(--k-4);
+  font-size: var(--c-1);
+  align-items: center;
+  border-bottom: var(--be-1) solid var(--mau-xam-nhat);
+}
+
+.bxg-row:last-child {
+  border-bottom: none;
+}
+
+.bxg-vi {
+  font-weight: 700;
+  color: var(--mau-trang-nhat);
+}
+
+.bxg-doi {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.bxg-diem {
+  font-weight: 800;
+  color: var(--mau-do);
+}
+
+.bxg-row.top {
+  background-color: var(--mau-den-nhat);
+}
+
+.bxg-row.doi {
+  background-color: var(--mau-do);
+}
+
+.bxg-row.doi .bxg-doi,
+.bxg-row.doi .bxg-vi,
+.bxg-row.doi .bxg-diem {
+  color: var(--mau-trang);
+}

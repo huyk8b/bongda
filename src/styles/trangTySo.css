@@ -1,0 +1,240 @@
+/* === TRANG TY SO === */
+
+.ty-so-tieu-de {
+  padding: var(--k-7) 0 var(--k-6);
+}
+
+.ty-so-tieu-de-chinh {
+  font-size: var(--c-5);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: var(--k-2);
+}
+
+.ty-so-mo-ta {
+  font-size: var(--c-2);
+  color: var(--mau-trang-nhat);
+}
+
+/* === TAB TY SO === */
+
+.khung-tab {
+  margin-bottom: var(--k-7);
+}
+
+.list-tab {
+  display: flex;
+  gap: var(--k-2);
+  border-bottom: var(--be-2) solid var(--mau-xam-nhat);
+}
+
+.nut-tab {
+  padding: var(--k-3) var(--k-4);
+  font-size: var(--c-1);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--mau-trang-nhat);
+  background: none;
+  border: none;
+  border-bottom: var(--be-2) solid transparent;
+  cursor: pointer;
+  transition: all var(--td-2);
+}
+
+.nut-tab:hover {
+  color: var(--mau-trang);
+}
+
+.tab-input:checked + .nut-tab {
+  color: var(--mau-do);
+  border-bottom-color: var(--mau-do);
+}
+
+.vung-tab {
+  padding-top: var(--k-5);
+}
+
+.noi-tab {
+  display: none;
+}
+
+.tab-input[data-tab="0"]:checked ~ .vung-tab .noi-tab[data-tab="0"],
+.tab-input[data-tab="1"]:checked ~ .vung-tab .noi-tab[data-tab="1"],
+.tab-input[data-tab="2"]:checked ~ .vung-tab .noi-tab[data-tab="2"] {
+  display: block;
+}
+
+/* === DANH SACH TRAN DAU === */
+
+.list-tran {
+  display: flex;
+  flex-direction: column;
+  gap: var(--k-3);
+}
+
+.tran-day {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--k-5);
+  align-items: stretch;
+}
+
+.tran-day-list {
+  flex-direction: column;
+}
+
+/* === TRAN DANG LIVE === */
+
+.tran-live {
+  background: linear-gradient(135deg, var(--mau-do) 0%, var(--mau-den) 100%);
+  border: var(--be-2) solid var(--mau-do-nhat);
+  padding: var(--k-4);
+}
+
+.tran-live-top {
+  display: flex;
+  align-items: center;
+  gap: var(--k-4);
+}
+
+.tran-live-doi {
+  flex: 1;
+}
+
+.tran-live-doi--nha {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tran-live-doi--khach {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.ten-doi-live {
+  font-size: var(--c-4);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: var(--k-2);
+}
+
+.tran-live-tiso {
+  flex: 0 0 auto;
+  text-align: center;
+  padding: 0 var(--k-4);
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tiso-live {
+  font-size: var(--c-5);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.trang-thai-live {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--k-1);
+  margin-top: var(--k-2);
+  font-size: var(--c-1);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.diem-live {
+  width: 8px;
+  height: 8px;
+  background-color: var(--mau-vang);
+  border-radius: 50%;
+  animation: nhapNhay 1s infinite;
+}
+
+@keyframes nhapNhay {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+/* === BANG XEP HANG MINI === */
+
+.bxh-mini {
+  background-color: var(--mau-xam);
+  border: var(--be-1) solid var(--mau-xam-nhat);
+}
+
+.bxh-mini-tieu-de {
+  padding: var(--k-3) var(--k-4);
+  border-bottom: var(--be-1) solid var(--mau-xam-nhat);
+  font-size: var(--c-1);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.bxh-mini-list {
+  padding: var(--k-2) 0;
+}
+
+.bxh-row {
+  display: grid;
+  grid-template-columns: 30px 1fr auto;
+  gap: var(--k-2);
+  padding: var(--k-2) var(--k-4);
+  font-size: var(--c-1);
+  align-items: center;
+  border-bottom: var(--be-1) solid var(--mau-xam-nhat);
+}
+
+.bxh-row:last-child {
+  border-bottom: none;
+}
+
+.bxh-vi {
+  font-weight: 700;
+  color: var(--mau-trang-nhat);
+}
+
+.bxh-doi {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.bxh-diem {
+  font-weight: 800;
+  color: var(--mau-do);
+}
+
+.bxh-row.top {
+  background-color: var(--mau-den-nhat);
+}
+
+.bxh-row.doi {
+  background-color: var(--mau-do);
+}
+
+.bxh-row.doi .bxh-doi,
+.bxh-row.doi .bxh-vi,
+.bxh-row.doi .bxh-diem {
+  color: var(--mau-trang);
+}
+
+/* === PHAN TRANG TY SO === */
+
+.phan-trang-ty-so {
+  padding: var(--k-8) 0 var(--k-7);
+}

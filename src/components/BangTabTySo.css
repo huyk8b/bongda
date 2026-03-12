@@ -1,0 +1,56 @@
+.khung-tab {
+  margin-bottom: var(--k-6);
+}
+
+.tab-input {
+  display: none;
+}
+
+.list-tab {
+  display: flex;
+  gap: var(--k-2);
+  border-bottom: var(--be-2) solid var(--mau-xam-nhat);
+}
+
+.nhom-tab {
+  display: contents;
+}
+
+.nut-tab {
+  padding: var(--k-3) var(--k-4);
+  font-size: var(--c-1);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--mau-trang-nhat);
+  background: none;
+  border: none;
+  border-bottom: var(--be-2) solid transparent;
+  cursor: pointer;
+  transition: all var(--td-2);
+  display: block;
+}
+
+.nut-tab:hover {
+  color: var(--mau-trang);
+}
+
+.tab-input:checked + .nut-tab {
+  color: var(--mau-do);
+  border-bottom-color: var(--mau-do);
+}
+
+.vung-tab {
+  padding-top: var(--k-5);
+}
+
+.noi-tab {
+  display: none;
+}
+
+#tab-0:checked ~ .vung-tab [data-tab="0"],
+#tab-1:checked ~ .vung-tab [data-tab="1"],
+#tab-2:checked ~ .vung-tab [data-tab="2"],
+#tab-3:checked ~ .vung-tab [data-tab="3"] {
+  display: block;
+}

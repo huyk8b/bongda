@@ -1,0 +1,27 @@
+.the-so {
+  background-color: var(--mau-xam);
+  border: var(--be-1) solid var(--mau-xam-nhat);
+  padding: var(--k-5) var(--k-4);
+  text-align: center;
+  transition: border-color var(--td-2);
+}
+
+.the-so:hover {
+  border-color: var(--mau-do);
+}
+
+.so-so {
+  font-size: var(--c-5);
+  font-weight: 900;
+  color: var(--mau-do);
+  line-height: 1;
+  margin-bottom: var(--k-2);
+}
+
+.ten-so {
+  font-size: var(--c-1);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--mau-trang-nhat);
+}

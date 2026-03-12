@@ -1,0 +1,18 @@
+.nut-chinh {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--k-3) var(--k-5);
+  font-size: var(--c-1);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--mau-trang);
+  background-color: var(--mau-do);
+  border: var(--be-1) solid var(--mau-do);
+  transition: all var(--td-2);
+}
+
+.nut-chinh:hover {
+  transform: translateY(-2px);
+}

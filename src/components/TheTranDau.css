@@ -1,0 +1,91 @@
+.the-tran {
+  background-color: var(--mau-xam);
+  border: var(--be-1) solid var(--mau-xam-nhat);
+  transition: border-color var(--td-2);
+}
+
+.the-tran:hover {
+  border-color: var(--mau-do);
+}
+
+.the-tran.live {
+  border-color: var(--mau-do);
+  background: linear-gradient(135deg, var(--mau-do) 0%, var(--mau-xam) 100%);
+}
+
+.the-tran-top {
+  display: grid;
+  grid-template-columns: 30px 1fr auto;
+  gap: var(--k-2);
+  padding: var(--k-2) var(--k-3);
+  font-size: var(--c-1);
+  align-items: center;
+  border-bottom: var(--be-1) solid var(--mau-xam-nhat);
+}
+
+.the-tran-top:last-child {
+  border-bottom: none;
+}
+
+.tran-giai {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--mau-do-nhat);
+}
+
+.tran-ngay {
+  color: var(--mau-xam-nhat);
+}
+
+.the-tran-state {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--mau-trang-nhat);
+}
+
+.the-tran-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--k-3) var(--k-3);
+  gap: var(--k-2);
+}
+
+.tran-doi {
+  text-align: center;
+}
+
+.tran-ten {
+  font-size: var(--c-2);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.tran-tiso {
+  font-size: var(--c-3);
+  font-weight: 800;
+  padding: 0 var(--k-2);
+}
+
+.tran-time {
+  font-size: var(--c-2);
+}
+
+.the-tran-san {
+  padding: var(--k-2) var(--k-3);
+  border-top: var(--be-1) solid var(--mau-xam-nhat);
+  text-align: center;
+  font-size: var(--c-1);
+  color: var(--mau-xam-nhat);
+}
+
+.the-tran.top {
+  background-color: var(--mau-den-nhat);
+}
+
+.the-tran.doi .tran-ten {
+  color: var(--mau-trang);
+}

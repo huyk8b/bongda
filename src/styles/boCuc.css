@@ -1,0 +1,104 @@
+:root {
+  --mau-do: #8B0000;
+  --mau-do-nhat: #A52A2A;
+  --mau-den: #0a0a0a;
+  --mau-den-nhat: #1a1a1a;
+  --mau-xam: #2d2d2d;
+  --mau-xam-nhat: #404040;
+  --mau-trang: #ffffff;
+  --mau-trang-nhat: #e5e5e5;
+  --mau-vang: #FFD700;
+
+  --k-1: 0.5rem;
+  --k-2: 0.75rem;
+  --k-3: 1rem;
+  --k-4: 1.5rem;
+  --k-5: 2rem;
+  --k-6: 3rem;
+  --k-7: 4rem;
+
+  --be-1: 2px;
+  --be-2: 3px;
+  --be-3: 4px;
+
+  --c-1: 0.75rem;
+  --c-2: 1rem;
+  --c-3: 1.5rem;
+  --c-4: 2rem;
+  --c-5: 3rem;
+
+  --td-1: 0.2s;
+  --td-2: 0.3s;
+  --td-3: 0.35s;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--k-3);
+}
+
+.grid {
+  display: grid;
+  gap: var(--k-4);
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--k-5);
+  align-items: center;
+}
+
+.col-3-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--k-5);
+}
+
+.flex {
+  display: flex;
+  gap: var(--k-3);
+  align-items: center;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-between {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.hide-mobile {
+  display: block;
+}
+
+.show-mobile {
+  display: none;
+}

@@ -1,0 +1,91 @@
+.chan-trang {
+  background-color: var(--mau-den);
+  border-top: var(--k-7) solid var(--mau-xam-nhat);
+  padding: var(--k-7) 0 var(--k-4);
+}
+.chan-top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--k-6);
+  margin-bottom: var(--k-6);
+}
+.chan-cot {
+  display: flex;
+  flex-direction: column;
+  gap: var(--k-3);
+}
+.chan-tieu-de {
+  font-size: var(--c-3);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--mau-do);
+}
+.chan-mota {
+  font-size: var(--c-1);
+  color: var(--mau-trang-nhat);
+  line-height: 1.6;
+}
+.chan-label {
+  font-size: var(--c-1);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--mau-trang);
+}
+.chan-nav {
+  display: flex;
+  gap: var(--k-4);
+  flex-direction: column;
+}
+.chan-link {
+  font-size: var(--c-1);
+  color: var(--mau-trang-nhat);
+}
+.chan-link:hover {
+  color: var(--mau-do);
+}
+.chan-info {
+  display: flex;
+  gap: var(--k-4);
+  flex-direction: column;
+}
+.chan-info p {
+  font-size: var(--c-1);
+  color: var(--mau-trang-nhat);
+}
+.chan-info-item {
+  display: flex;
+  align-items: center;
+  gap: var(--k-2);
+}
+.chan-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background-color: var(--mau-do);
+  color: var(--mau-trang);
+  font-size: var(--c-1);
+  font-weight: 700;
+  border-radius: 50%;
+}
+.chan-logo {
+  margin-bottom: var(--k-2);
+}
+.chan-logo img {
+  width: 60px;
+  height: 60px;
+}
+.chan-bottom {
+  padding-top: var(--k-4);
+  border-top: var(--be-1) solid var(--mau-xam-nhat);
+  text-align: center;
+}
+.chan-bottom p {
+  font-size: var(--c-1);
+  color: var(--mau-trang-nhat);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

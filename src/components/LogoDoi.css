@@ -1,0 +1,40 @@
+.logo-doi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.logo-nho {
+  width: 32px;
+  height: 32px;
+}
+
+.logo-vua {
+  width: 48px;
+  height: 48px;
+}
+
+.logo-lon {
+  width: 64px;
+  height: 64px;
+}
+
+.logo-rat-lon {
+  width: 80px;
+  height: 80px;
+}
+
+.logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.logo-text {
+  font-size: var(--c-1);
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--mau-trang);
+}

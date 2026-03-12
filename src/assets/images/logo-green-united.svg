@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="85" fill="#228B22" stroke="#32CD32" stroke-width="4"/>
+  <circle cx="100" cy="100" r="65" fill="#32CD32" opacity="0.3"/>
+  <path d="M100 50 L130 80 L130 120 L100 150 L70 120 L70 80 Z" fill="#ffffff"/>
+  <text x="100" y="110" font-family="Arial Black, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#228B22">GU</text>
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">GREEN UNITED</text>
+</svg>

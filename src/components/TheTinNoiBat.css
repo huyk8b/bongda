@@ -1,0 +1,88 @@
+.the-tin {
+  background-color: var(--mau-xam);
+  overflow: hidden;
+  transition: transform var(--td-2);
+}
+
+.the-tin:hover {
+  transform: translateY(-4px);
+}
+
+.the-tin-lon {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.the-tin-anh {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.the-tin-lon .the-tin-anh {
+  aspect-ratio: 16 / 10;
+}
+
+.the-tin-anh img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--td-2);
+}
+
+.the-tin:hover .the-tin-anh img {
+  transform: scale(1.05);
+}
+
+.the-tin-anh-gia-lap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.the-tin-anh-chu {
+  font-size: var(--c-3);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  opacity: 0.3;
+}
+
+.the-tin-body {
+  padding: var(--k-4);
+}
+
+.the-tin-tag {
+  display: inline-block;
+  font-size: var(--c-1);
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--mau-do);
+  margin-bottom: var(--k-2);
+}
+
+.the-tin-tieu-de {
+  font-size: var(--c-2);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4;
+  margin-bottom: var(--k-2);
+}
+
+.the-tin-lon .the-tin-tieu-de {
+  font-size: var(--c-3);
+}
+
+.the-tin-mota {
+  font-size: var(--c-1);
+  color: var(--mau-trang-nhat);
+  line-height: 1.6;
+}
+
+.the-tin-lon .the-tin-mota {
+  font-size: var(--c-2);
+}

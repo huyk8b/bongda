@@ -1,0 +1,113 @@
+.thanh-dau {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--mau-den);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+.tb-bao {
+  background-color: var(--mau-do);
+  padding: var(--k-2) 0;
+}
+
+.tb-bao span {
+  display: block;
+  text-align: center;
+  font-size: var(--c-1);
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--mau-trang);
+  text-transform: uppercase;
+}
+
+.dieu-huong {
+  border-bottom: var(--be-1) solid var(--mau-xam-nhat);
+  padding: var(--k-3) 0;
+}
+
+.dieu-huong .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--k-5);
+}
+
+.logo-khung {
+  display: flex;
+  align-items: center;
+  gap: var(--k-2);
+}
+
+.thanh-dau .logo-img {
+  width: 40px;
+  height: 40px;
+}
+
+.thanh-dau .logo-chu {
+  font-size: var(--c-3);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--mau-do);
+}
+
+.list-nav {
+  display: flex;
+  gap: var(--k-4);
+  align-items: center;
+}
+
+.nut-nav {
+  font-size: var(--c-1);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--mau-trang-nhat);
+  position: relative;
+  padding: var(--k-1) 0;
+}
+
+.nut-nav::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: var(--be-1);
+  background-color: var(--mau-do);
+  transition: width var(--td-2);
+}
+
+.nut-nav:hover {
+  color: var(--mau-trang);
+}
+
+.nut-nav:hover::after {
+  width: 100%;
+}
+
+.nut-nav.active {
+  color: var(--mau-do);
+}
+
+.nut-nav.active::after {
+  width: 100%;
+}
+
+.nut {
+  display: inline-block;
+  padding: var(--k-1) var(--k-3);
+  font-size: var(--c-1);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--mau-trang);
+  background-color: var(--mau-do);
+  border: var(--be-1) solid var(--mau-do);
+  transition: all var(--td-2);
+}
+
+.nut:hover {
+  background-color: var(--mau-do-nhat);
+}
