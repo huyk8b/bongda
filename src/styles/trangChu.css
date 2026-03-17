@@ -213,25 +213,3 @@
   margin-bottom: var(--k-4);
   line-height: 1.7;
 }
-
-.fan-img {
-  background-color: var(--mau-den-nhat);
-  background-size: cover;
-  background-position: center;
-  aspect-ratio: 16 / 9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: var(--c-4);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  overflow: hidden;
-}
-
-.fan-img-anh {
-  width: 120px;
-  height: 120px;
-  object-fit: contain;
-  filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.5));
-}

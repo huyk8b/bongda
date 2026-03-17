@@ -12,7 +12,6 @@ import { GridThongKe } from "../components/TheThongSo";
 import { LogoFcRed, LogoBlueCity } from "../components/LogoDoi";
 import heroStadium from "../assets/images/hero-stadium.jpg";
 import stadiumNight from "../assets/images/stadium-night.jpg";
-import footballBall from "../assets/images/football-ball.jpg";
 import "../styles/trangChu.css";
 
 function TrangChu() {
@@ -111,17 +110,6 @@ function TrangChu() {
                 <a href="#dang-ky">
                   <NutDangKy />
                 </a>
-              </div>
-
-              <div
-                className="fan-img"
-                style={{ backgroundImage: `url(${stadiumNight})` }}
-              >
-                <img
-                  src={footballBall}
-                  alt="Football"
-                  className="fan-img-anh"
-                />
               </div>
             </div>
           </div>
