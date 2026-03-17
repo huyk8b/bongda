@@ -32,10 +32,6 @@ function TrangTySo() {
 
               <div className="tran-live-tiso">
                 <div className="tiso-live">1 - 0</div>
-                <div className="trang-thai-live">
-                  <span className="diem-live" />
-                  <span>LIVE 67</span>
-                </div>
               </div>
 
               <div className="tran-live-doi tran-live-doi--khach">

@@ -35,7 +35,7 @@
   color: var(--mau-trang);
 }
 
-.tab-input:checked + .nut-tab {
+.nut-tab.nut-tab--active {
   color: var(--mau-do);
   border-bottom-color: var(--mau-do);
 }
@@ -48,9 +48,3 @@
   display: none;
 }
 
-#tab-0:checked ~ .vung-tab [data-tab="0"],
-#tab-1:checked ~ .vung-tab [data-tab="1"],
-#tab-2:checked ~ .vung-tab [data-tab="2"],
-#tab-3:checked ~ .vung-tab [data-tab="3"] {
-  display: block;
-}

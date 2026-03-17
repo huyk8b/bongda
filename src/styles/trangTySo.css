@@ -47,7 +47,7 @@
   color: var(--mau-trang);
 }
 
-.tab-input:checked + .nut-tab {
+.nut-tab.nut-tab--active {
   color: var(--mau-do);
   border-bottom-color: var(--mau-do);
 }
@@ -60,11 +60,7 @@
   display: none;
 }
 
-.tab-input[data-tab="0"]:checked ~ .vung-tab .noi-tab[data-tab="0"],
-.tab-input[data-tab="1"]:checked ~ .vung-tab .noi-tab[data-tab="1"],
-.tab-input[data-tab="2"]:checked ~ .vung-tab .noi-tab[data-tab="2"] {
-  display: block;
-}
+
 
 /* === DANH SACH TRAN DAU === */
 

@@ -73,6 +73,23 @@ export function Tin3() {
   );
 }
 
+export function Tin4() {
+  return (
+    <article className="the-tin">
+      <div className="the-tin-anh">
+        <img src={tin1} alt="TIN CHUYEN NHUONG" className="the-tin-anh-img" />
+      </div>
+      <div className="the-tin-body">
+        <span className="the-tin-tag">CHUYEN NGUONG</span>
+        <h3 className="the-tin-tieu-de">CHUYEN NHUONG MUA DONG</h3>
+        <p className="the-tin-mota">
+          Nhung ban hop dong dang chu y nhat cua FC RED trong ky chuyen nhuong toi
+        </p>
+      </div>
+    </article>
+  );
+}
+
 export function GridTinNoiBat() {
   return (
     <>
@@ -80,6 +97,7 @@ export function GridTinNoiBat() {
       <Tin1 />
       <Tin2 />
       <Tin3 />
+      <Tin4 />
     </>
   );
 }

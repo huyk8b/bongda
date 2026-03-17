@@ -25,11 +25,6 @@ export function BangXepHangMini() {
           <span className="bxh-doi">GOLD STAR</span>
           <span className="bxh-diem">35</span>
         </div>
-        <div className="bxh-row">
-          <span className="bxh-vi">5</span>
-          <span className="bxh-doi">SILVER MOON</span>
-          <span className="bxh-diem">28</span>
-        </div>
       </div>
     </div>
   );
