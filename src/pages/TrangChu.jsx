@@ -25,11 +25,7 @@ function TrangChu() {
         <div className="container">
           <div className="hero-body">
             <span className="hero-tag">CHAO MUNG DEN VOI FC RED</span>
-            <h1 className="hero-tieu-de">
-              Hong Anh Minh
-              <br />
-              Danh Ngon Doi Bong
-            </h1>
+            <h1 className="hero-tieu-de">FC RED</h1>
             <p className="hero-mota">
               Trang chu chinh thuc cua doi tuyen bong da. Cap nhat tin tuc, ty
               so, va thong tin moi nhat ve cau thu va tran dau.
@@ -69,7 +65,9 @@ function TrangChu() {
               <div className="tran-info">
                 <div className="tran-giai">VQG - VONG 16</div>
                 <div className="tran-gio">19:00</div>
-                <div className="tran-ngay">15/03/2026</div>
+                <div style={{ color: "white" }} className="tran-ngay">
+                  15/03/2026
+                </div>
                 <div className="tran-san">San Van Dong Quoc Gia</div>
               </div>
 

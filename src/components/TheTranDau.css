@@ -35,7 +35,7 @@
 }
 
 .tran-ngay {
-  color: var(--mau-xam-nhat);
+  color: white;
 }
 
 .the-tran-state {
@@ -43,6 +43,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   color: var(--mau-trang-nhat);
+  text-align: center;
 }
 
 .the-tran-body {
@@ -79,7 +80,7 @@
   border-top: var(--be-1) solid var(--mau-xam-nhat);
   text-align: center;
   font-size: var(--c-1);
-  color: var(--mau-xam-nhat);
+  color: white;
 }
 
 .the-tran.top {

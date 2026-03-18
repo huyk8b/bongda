@@ -60,8 +60,6 @@
   display: none;
 }
 
-
-
 /* === DANH SACH TRAN DAU === */
 
 .list-tran {
@@ -84,7 +82,7 @@
 /* === TRAN DANG LIVE === */
 
 .tran-live {
-  background: linear-gradient(135deg, var(--mau-do) 0%, var(--mau-den) 100%);
+  background: rgb(122, 16, 16);
   border: var(--be-2) solid var(--mau-do-nhat);
   padding: var(--k-4);
 }
@@ -157,7 +155,8 @@
 }
 
 @keyframes nhapNhay {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 1;
   }
   50% {
