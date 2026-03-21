@@ -1,26 +1,26 @@
 .the-tran {
-  background-color: var(--mau-xam);
-  border: var(--be-1) solid var(--mau-xam-nhat);
-  transition: border-color var(--td-2);
+  background-color: #2d2d2d;
+  border: 2px solid #404040;
+  transition: border-color 0.3s;
 }
 
 .the-tran:hover {
-  border-color: var(--mau-do);
+  border-color: #8B0000;
 }
 
 .the-tran.live {
-  border-color: var(--mau-do);
-  background: linear-gradient(135deg, var(--mau-do) 0%, var(--mau-xam) 100%);
+  border-color: #8B0000;
+  background: linear-gradient(135deg, #8B0000 0%, #2d2d2d 100%);
 }
 
 .the-tran-top {
   display: grid;
   grid-template-columns: 30px 1fr auto;
-  gap: var(--k-2);
-  padding: var(--k-2) var(--k-3);
-  font-size: var(--c-1);
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.75rem;
   align-items: center;
-  border-bottom: var(--be-1) solid var(--mau-xam-nhat);
+  border-bottom: 2px solid #404040;
 }
 
 .the-tran-top:last-child {
@@ -31,7 +31,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--mau-do-nhat);
+  color: #A52A2A;
 }
 
 .tran-ngay {
@@ -42,7 +42,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--mau-trang-nhat);
+  color: #e5e5e5;
   text-align: center;
 }
 
@@ -50,8 +50,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--k-3) var(--k-3);
-  gap: var(--k-2);
+  padding: 1rem 1rem;
+  gap: 0.75rem;
 }
 
 .tran-doi {
@@ -59,34 +59,34 @@
 }
 
 .tran-ten {
-  font-size: var(--c-2);
+  font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 .tran-tiso {
-  font-size: var(--c-3);
+  font-size: 1.5rem;
   font-weight: 800;
-  padding: 0 var(--k-2);
+  padding: 0 0.75rem;
 }
 
 .tran-time {
-  font-size: var(--c-2);
+  font-size: 1rem;
 }
 
 .the-tran-san {
-  padding: var(--k-2) var(--k-3);
-  border-top: var(--be-1) solid var(--mau-xam-nhat);
+  padding: 0.75rem 1rem;
+  border-top: 2px solid #404040;
   text-align: center;
-  font-size: var(--c-1);
+  font-size: 0.75rem;
   color: white;
 }
 
 .the-tran.top {
-  background-color: var(--mau-den-nhat);
+  background-color: #1a1a1a;
 }
 
 .the-tran.doi .tran-ten {
-  color: var(--mau-trang);
+  color: #ffffff;
 }

@@ -25,54 +25,54 @@
 }
 
 .hero-tag {
-  font-size: var(--c-1);
+  font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--mau-trang);
-  margin-bottom: var(--k-3);
+  color: #ffffff;
+  margin-bottom: 1rem;
   display: inline-block;
 }
 
 .hero-tieu-de {
-  font-size: var(--c-5);
+  font-size: 3rem;
   font-weight: 800;
   line-height: 1.1;
   text-transform: uppercase;
-  margin-bottom: var(--k-4);
+  margin-bottom: 1.5rem;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .hero-mota {
-  font-size: var(--c-3);
-  color: var(--mau-trang-nhat);
-  margin-bottom: var(--k-5);
+  font-size: 1.5rem;
+  color: #e5e5e5;
+  margin-bottom: 2rem;
   line-height: 1.6;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-nut {
   display: flex;
-  gap: var(--k-3);
+  gap: 1rem;
   flex-wrap: wrap;
 }
 
 .sec {
-  padding: var(--k-7) 0;
+  padding: 4rem 0;
 }
 
 .sec-dark {
-  background-color: var(--mau-den);
+  background-color: #0a0a0a;
 }
 
 .sec-gray {
-  background-color: var(--mau-xam);
+  background-color: #2d2d2d;
 }
 
 .grid-tin {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: var(--k-4);
+  gap: 1.5rem;
 }
 
 .tin-lon {
@@ -81,9 +81,9 @@
 }
 
 .tran-sap {
-  background-color: var(--mau-den-nhat);
-  border: var(--be-2) solid var(--mau-do);
-  padding: var(--k-6);
+  background-color: #1a1a1a;
+  border: 3px solid #8B0000;
+  padding: 3rem;
   text-align: center;
 }
 
@@ -91,7 +91,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: var(--k-4);
+  gap: 1.5rem;
   flex-wrap: wrap;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .doi-ten {
-  font-size: var(--c-4);
+  font-size: 2rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -127,69 +127,69 @@
 }
 
 .tran-giai {
-  font-size: var(--c-1);
+  font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: var(--mau-do-nhat);
-  margin-bottom: var(--k-2);
+  color: #A52A2A;
+  margin-bottom: 0.75rem;
 }
 
 .tran-gio {
-  font-size: var(--c-5);
+  font-size: 3rem;
   font-weight: 800;
 }
 
 .tran-ngay {
-  font-size: var(--c-1);
+  font-size: 0.75rem;
   color: white;
-  margin-top: var(--k-1);
+  margin-top: 0.5rem;
 }
 
 .tran-san {
-  font-size: var(--c-1);
-  color: var(--mau-trang-nhat);
-  margin-top: var(--k-2);
+  font-size: 0.75rem;
+  color: #e5e5e5;
+  margin-top: 0.75rem;
 }
 
 .grid-stat {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: var(--k-4);
+  gap: 1.5rem;
 }
 
 .the-stat {
-  background-color: var(--mau-xam);
-  border: var(--be-1) solid var(--mau-xam-nhat);
-  padding: var(--k-5) var(--k-4);
+  background-color: #2d2d2d;
+  border: 2px solid #404040;
+  padding: 2rem 1.5rem;
   text-align: center;
-  transition: border-color var(--td-2);
+  transition: border-color 0.3s;
 }
 
 .the-stat:hover {
-  border-color: var(--mau-do);
+  border-color: #8B0000;
 }
 
 .stat-so {
-  font-size: var(--c-5);
+  font-size: 3rem;
   font-weight: 900;
-  color: var(--mau-do);
+  color: #8B0000;
   line-height: 1;
-  margin-bottom: var(--k-2);
+  margin-bottom: 0.75rem;
 }
 
 .stat-ten {
-  font-size: var(--c-1);
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--mau-trang-nhat);
+  color: #e5e5e5;
 }
 
 .fan-sec {
   background: rgb(118, 7, 7);
-  border: var(--be-2) solid var(--mau-do-nhat);
-  padding: var(--k-7);
+  border: 3px solid #A52A2A;
+  padding: 4rem;
 }
 
 .fan-body {
@@ -197,15 +197,15 @@
 }
 
 .fan-tieu-de {
-  font-size: var(--c-4);
+  font-size: 2rem;
   font-weight: 800;
   text-transform: uppercase;
-  margin-bottom: var(--k-3);
+  margin-bottom: 1rem;
 }
 
 .fan-mota {
-  font-size: var(--c-2);
-  color: var(--mau-trang-nhat);
-  margin-bottom: var(--k-4);
+  font-size: 1rem;
+  color: #e5e5e5;
+  margin-bottom: 1.5rem;
   line-height: 1.7;
 }

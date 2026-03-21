@@ -2,15 +2,15 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: var(--k-3) var(--k-5);
-  font-size: var(--c-1);
+  padding: 1rem 2rem;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--mau-trang);
-  background-color: var(--mau-do);
-  border: var(--be-1) solid var(--mau-do);
-  transition: all var(--td-2);
+  color: #ffffff;
+  background-color: #8B0000;
+  border: 2px solid #8B0000;
+  transition: all 0.3s;
 }
 
 .nut-chinh:hover {

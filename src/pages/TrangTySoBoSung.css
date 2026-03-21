@@ -1,33 +1,33 @@
 /* === BANG XEP HANG DAY === */
 
 .bxh-day {
-  background-color: var(--mau-xam);
-  border: var(--be-1) solid var(--mau-xam-nhat);
+  background-color: #2d2d2d;
+  border: 2px solid #404040;
   overflow-x: auto;
 }
 
 .bxh-bang {
   width: 100%;
   border-collapse: collapse;
-  font-size: var(--c-1);
+  font-size: 0.75rem;
 }
 
 .bxh-tieu-de tr {
-  border-bottom: var(--be-2) solid var(--mau-xam-nhat);
+  border-bottom: 3px solid #404040;
 }
 
 .bxh-tieu-de th {
-  padding: var(--k-3) var(--k-2);
+  padding: 1rem 0.75rem;
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--mau-trang-nhat);
+  color: #e5e5e5;
 }
 
 .bxh-tieu-de th:first-child {
   text-align: left;
-  padding-left: var(--k-3);
+  padding-left: 1rem;
 }
 
 .bxh-ten-doi {
@@ -35,12 +35,12 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  padding-left: var(--k-3) !important;
+  padding-left: 1rem !important;
 }
 
 .bxh-hang {
-  border-bottom: var(--be-1) solid var(--mau-xam-nhat);
-  transition: background-color var(--td-2);
+  border-bottom: 2px solid #404040;
+  transition: background-color 0.3s;
 }
 
 .bxh-hang:last-child {
@@ -48,31 +48,31 @@
 }
 
 .bxh-hang:hover {
-  background-color: var(--mau-den-nhat);
+  background-color: #1a1a1a;
 }
 
 .bxh-hang td {
-  padding: var(--k-3) var(--k-2);
+  padding: 1rem 0.75rem;
   text-align: center;
 }
 
 .bxh-diem {
   font-weight: 800;
-  color: var(--mau-do);
+  color: #8B0000;
 }
 
 .bxh-hang.top {
-  background-color: var(--mau-den-nhat);
+  background-color: #1a1a1a;
 }
 
 .bxh-hang.doi {
-  background-color: var(--mau-do);
+  background-color: #8B0000;
 }
 
 .bxh-hang.doi td {
-  color: var(--mau-trang);
+  color: #ffffff;
 }
 
 .bxh-hang.doi .bxh-diem {
-  color: var(--mau-vang);
+  color: #FFD700;
 }

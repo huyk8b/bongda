@@ -1,5 +1,5 @@
 .khung-tab {
-  margin-bottom: var(--k-6);
+  margin-bottom: 3rem;
 }
 
 .tab-input {
@@ -8,8 +8,8 @@
 
 .list-tab {
   display: flex;
-  gap: var(--k-2);
-  border-bottom: var(--be-2) solid var(--mau-xam-nhat);
+  gap: 0.75rem;
+  border-bottom: 3px solid #404040;
 }
 
 .nhom-tab {
@@ -17,31 +17,31 @@
 }
 
 .nut-tab {
-  padding: var(--k-3) var(--k-4);
-  font-size: var(--c-1);
+  padding: 1rem 1.5rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--mau-trang-nhat);
+  color: #e5e5e5;
   background: none;
   border: none;
-  border-bottom: var(--be-2) solid transparent;
+  border-bottom: 3px solid transparent;
   cursor: pointer;
-  transition: all var(--td-2);
+  transition: all 0.3s;
   display: block;
 }
 
 .nut-tab:hover {
-  color: var(--mau-trang);
+  color: #ffffff;
 }
 
 .nut-tab.nut-tab--active {
-  color: var(--mau-do);
-  border-bottom-color: var(--mau-do);
+  color: #8B0000;
+  border-bottom-color: #8B0000;
 }
 
 .vung-tab {
-  padding-top: var(--k-5);
+  padding-top: 2rem;
 }
 
 .noi-tab {

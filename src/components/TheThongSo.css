@@ -1,27 +1,27 @@
 .the-so {
-  background-color: var(--mau-xam);
-  border: var(--be-1) solid var(--mau-xam-nhat);
-  padding: var(--k-5) var(--k-4);
+  background-color: #2d2d2d;
+  border: 2px solid #404040;
+  padding: 2rem 1.5rem;
   text-align: center;
-  transition: border-color var(--td-2);
+  transition: border-color 0.3s;
 }
 
 .the-so:hover {
-  border-color: var(--mau-do);
+  border-color: #8B0000;
 }
 
 .so-so {
-  font-size: var(--c-5);
+  font-size: 3rem;
   font-weight: 900;
-  color: var(--mau-do);
+  color: #8B0000;
   line-height: 1;
-  margin-bottom: var(--k-2);
+  margin-bottom: 0.75rem;
 }
 
 .ten-so {
-  font-size: var(--c-1);
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--mau-trang-nhat);
+  color: #e5e5e5;
 }

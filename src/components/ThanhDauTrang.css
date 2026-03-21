@@ -2,41 +2,41 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: var(--mau-den);
+  background-color: #0a0a0a;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
 }
 
 .tb-bao {
-  background-color: var(--mau-do);
-  padding: var(--k-2) 0;
+  background-color: #8B0000;
+  padding: 0.75rem 0;
 }
 
 .tb-bao span {
   display: block;
   text-align: center;
-  font-size: var(--c-1);
+  font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 1px;
-  color: var(--mau-trang);
+  color: #ffffff;
   text-transform: uppercase;
 }
 
 .dieu-huong {
-  border-bottom: var(--be-1) solid var(--mau-xam-nhat);
-  padding: var(--k-3) 0;
+  border-bottom: 2px solid #404040;
+  padding: 1rem 0;
 }
 
 .dieu-huong .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: var(--k-5);
+  gap: 2rem;
 }
 
 .logo-khung {
   display: flex;
   align-items: center;
-  gap: var(--k-2);
+  gap: 0.75rem;
 }
 
 .thanh-dau .logo-img {
@@ -45,27 +45,27 @@
 }
 
 .thanh-dau .logo-chu {
-  font-size: var(--c-3);
+  font-size: 1.5rem;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: var(--mau-do);
+  color: #8B0000;
 }
 
 .list-nav {
   display: flex;
-  gap: var(--k-4);
+  gap: 1.5rem;
   align-items: center;
 }
 
 .nut-nav {
-  font-size: var(--c-1);
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--mau-trang-nhat);
+  color: #e5e5e5;
   position: relative;
-  padding: var(--k-1) 0;
+  padding: 0.5rem 0;
 }
 
 .nut-nav::after {
@@ -74,13 +74,13 @@
   bottom: 0;
   left: 0;
   width: 0;
-  height: var(--be-1);
-  background-color: var(--mau-do);
-  transition: width var(--td-2);
+  height: 2px;
+  background-color: #8B0000;
+  transition: width 0.3s;
 }
 
 .nut-nav:hover {
-  color: var(--mau-trang);
+  color: #ffffff;
 }
 
 .nut-nav:hover::after {
@@ -88,7 +88,7 @@
 }
 
 .nut-nav.active {
-  color: var(--mau-do);
+  color: #8B0000;
 }
 
 .nut-nav.active::after {
@@ -97,17 +97,17 @@
 
 .nut {
   display: inline-block;
-  padding: var(--k-1) var(--k-3);
-  font-size: var(--c-1);
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--mau-trang);
-  background-color: var(--mau-do);
-  border: var(--be-1) solid var(--mau-do);
-  transition: all var(--td-2);
+  color: #ffffff;
+  background-color: #8B0000;
+  border: 2px solid #8B0000;
+  transition: all 0.3s;
 }
 
 .nut:hover {
-  background-color: var(--mau-do-nhat);
+  background-color: #A52A2A;
 }

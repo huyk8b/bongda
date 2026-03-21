@@ -3,8 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--mau-den) 0%, var(--mau-do) 100%);
-  padding: var(--k-3);
+  background: linear-gradient(135deg, #0a0a0a 0%, #8B0000 100%);
+  padding: 1rem;
 }
 
 .loi-body {
@@ -16,22 +16,22 @@
   font-size: 10rem;
   font-weight: 900;
   line-height: 1;
-  color: var(--mau-do);
-  margin-bottom: var(--k-4);
+  color: #8B0000;
+  margin-bottom: 1.5rem;
 }
 
 .loi-chu {
-  font-size: var(--c-4);
+  font-size: 2rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-bottom: var(--k-3);
+  margin-bottom: 1rem;
 }
 
 .loi-mota {
-  font-size: var(--c-2);
-  color: var(--mau-trang-nhat);
-  margin-bottom: var(--k-5);
+  font-size: 1rem;
+  color: #e5e5e5;
+  margin-bottom: 2rem;
   line-height: 1.6;
 }
 

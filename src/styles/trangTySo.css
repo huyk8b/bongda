@@ -1,59 +1,59 @@
 /* === TRANG TY SO === */
 
 .ty-so-tieu-de {
-  padding: var(--k-7) 0 var(--k-6);
+  padding: 4rem 0 3rem;
 }
 
 .ty-so-tieu-de-chinh {
-  font-size: var(--c-5);
+  font-size: 3rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-bottom: var(--k-2);
+  margin-bottom: 0.75rem;
 }
 
 .ty-so-mo-ta {
-  font-size: var(--c-2);
-  color: var(--mau-trang-nhat);
+  font-size: 1rem;
+  color: #e5e5e5;
 }
 
 /* === TAB TY SO === */
 
 .khung-tab {
-  margin-bottom: var(--k-7);
+  margin-bottom: 4rem;
 }
 
 .list-tab {
   display: flex;
-  gap: var(--k-2);
-  border-bottom: var(--be-2) solid var(--mau-xam-nhat);
+  gap: 0.75rem;
+  border-bottom: 3px solid #404040;
 }
 
 .nut-tab {
-  padding: var(--k-3) var(--k-4);
-  font-size: var(--c-1);
+  padding: 1rem 1.5rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--mau-trang-nhat);
+  color: #e5e5e5;
   background: none;
   border: none;
-  border-bottom: var(--be-2) solid transparent;
+  border-bottom: 3px solid transparent;
   cursor: pointer;
-  transition: all var(--td-2);
+  transition: all 0.3s;
 }
 
 .nut-tab:hover {
-  color: var(--mau-trang);
+  color: #ffffff;
 }
 
 .nut-tab.nut-tab--active {
-  color: var(--mau-do);
-  border-bottom-color: var(--mau-do);
+  color: #8B0000;
+  border-bottom-color: #8B0000;
 }
 
 .vung-tab {
-  padding-top: var(--k-5);
+  padding-top: 2rem;
 }
 
 .noi-tab {
@@ -65,13 +65,13 @@
 .list-tran {
   display: flex;
   flex-direction: column;
-  gap: var(--k-3);
+  gap: 1rem;
 }
 
 .tran-day {
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: var(--k-5);
+  gap: 2rem;
   align-items: stretch;
 }
 
@@ -83,14 +83,14 @@
 
 .tran-live {
   background: rgb(122, 16, 16);
-  border: var(--be-2) solid var(--mau-do-nhat);
-  padding: var(--k-4);
+  border: 3px solid #A52A2A;
+  padding: 1.5rem;
 }
 
 .tran-live-top {
   display: flex;
   align-items: center;
-  gap: var(--k-4);
+  gap: 1.5rem;
 }
 
 .tran-live-doi {
@@ -112,16 +112,16 @@
 }
 
 .ten-doi-live {
-  font-size: var(--c-4);
+  font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: var(--k-2);
+  margin-bottom: 0.75rem;
 }
 
 .tran-live-tiso {
   flex: 0 0 auto;
   text-align: center;
-  padding: 0 var(--k-4);
+  padding: 0 1.5rem;
   min-width: 100px;
   display: flex;
   flex-direction: column;
@@ -130,7 +130,7 @@
 }
 
 .tiso-live {
-  font-size: var(--c-5);
+  font-size: 3rem;
   font-weight: 900;
   line-height: 1;
 }
@@ -138,9 +138,9 @@
 .trang-thai-live {
   display: inline-flex;
   align-items: center;
-  gap: var(--k-1);
-  margin-top: var(--k-2);
-  font-size: var(--c-1);
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -149,7 +149,7 @@
 .diem-live {
   width: 8px;
   height: 8px;
-  background-color: var(--mau-vang);
+  background-color: #FFD700;
   border-radius: 50%;
   animation: nhapNhay 1s infinite;
 }
@@ -167,31 +167,31 @@
 /* === BANG XEP HANG MINI === */
 
 .bxh-mini {
-  background-color: var(--mau-xam);
-  border: var(--be-1) solid var(--mau-xam-nhat);
+  background-color: #2d2d2d;
+  border: 2px solid #404040;
 }
 
 .bxh-mini-tieu-de {
-  padding: var(--k-3) var(--k-4);
-  border-bottom: var(--be-1) solid var(--mau-xam-nhat);
-  font-size: var(--c-1);
+  padding: 1rem 1.5rem;
+  border-bottom: 2px solid #404040;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .bxh-mini-list {
-  padding: var(--k-2) 0;
+  padding: 0.75rem 0;
 }
 
 .bxh-row {
   display: grid;
   grid-template-columns: 30px 1fr auto;
-  gap: var(--k-2);
-  padding: var(--k-2) var(--k-4);
-  font-size: var(--c-1);
+  gap: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.75rem;
   align-items: center;
-  border-bottom: var(--be-1) solid var(--mau-xam-nhat);
+  border-bottom: 2px solid #404040;
 }
 
 .bxh-row:last-child {
@@ -200,7 +200,7 @@
 
 .bxh-vi {
   font-weight: 700;
-  color: var(--mau-trang-nhat);
+  color: #e5e5e5;
 }
 
 .bxh-doi {
@@ -211,25 +211,25 @@
 
 .bxh-diem {
   font-weight: 800;
-  color: var(--mau-do);
+  color: #8B0000;
 }
 
 .bxh-row.top {
-  background-color: var(--mau-den-nhat);
+  background-color: #1a1a1a;
 }
 
 .bxh-row.doi {
-  background-color: var(--mau-do);
+  background-color: #8B0000;
 }
 
 .bxh-row.doi .bxh-doi,
 .bxh-row.doi .bxh-vi,
 .bxh-row.doi .bxh-diem {
-  color: var(--mau-trang);
+  color: #ffffff;
 }
 
 /* === PHAN TRANG TY SO === */
 
 .phan-trang-ty-so {
-  padding: var(--k-8) 0 var(--k-7);
+  padding: var(--k-8) 0 4rem;
 }

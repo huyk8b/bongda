@@ -1,63 +1,63 @@
 .chan-trang {
-  background-color: var(--mau-den);
-  border-top: var(--k-7) solid var(--mau-xam-nhat);
-  padding: var(--k-7) 0 var(--k-4);
+  background-color: #0a0a0a;
+  border-top: 4rem solid #404040;
+  padding: 4rem 0 1.5rem;
 }
 .chan-top {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: var(--k-6);
-  margin-bottom: var(--k-6);
+  gap: 3rem;
+  margin-bottom: 3rem;
 }
 .chan-cot {
   display: flex;
   flex-direction: column;
-  gap: var(--k-3);
+  gap: 1rem;
 }
 .chan-tieu-de {
-  font-size: var(--c-3);
+  font-size: 1.5rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: var(--mau-do);
+  color: #8B0000;
 }
 .chan-mota {
-  font-size: var(--c-1);
-  color: var(--mau-trang-nhat);
+  font-size: 0.75rem;
+  color: #e5e5e5;
   line-height: 1.6;
 }
 .chan-label {
-  font-size: var(--c-1);
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--mau-trang);
+  color: #ffffff;
 }
 .chan-nav {
   display: flex;
-  gap: var(--k-4);
+  gap: 1.5rem;
   flex-direction: column;
 }
 .chan-link {
-  font-size: var(--c-1);
-  color: var(--mau-trang-nhat);
+  font-size: 0.75rem;
+  color: #e5e5e5;
 }
 .chan-link:hover {
-  color: var(--mau-do);
+  color: #8B0000;
 }
 .chan-info {
   display: flex;
-  gap: var(--k-4);
+  gap: 1.5rem;
   flex-direction: column;
 }
 .chan-info p {
-  font-size: var(--c-1);
-  color: var(--mau-trang-nhat);
+  font-size: 0.75rem;
+  color: #e5e5e5;
 }
 .chan-info-item {
   display: flex;
   align-items: center;
-  gap: var(--k-2);
+  gap: 0.75rem;
 }
 .chan-icon {
   display: inline-flex;
@@ -65,27 +65,27 @@
   justify-content: center;
   width: 24px;
   height: 24px;
-  background-color: var(--mau-do);
-  color: var(--mau-trang);
-  font-size: var(--c-1);
+  background-color: #8B0000;
+  color: #ffffff;
+  font-size: 0.75rem;
   font-weight: 700;
   border-radius: 50%;
 }
 .chan-logo {
-  margin-bottom: var(--k-2);
+  margin-bottom: 0.75rem;
 }
 .chan-logo img {
   width: 60px;
   height: 60px;
 }
 .chan-bottom {
-  padding-top: var(--k-4);
-  border-top: var(--be-1) solid var(--mau-xam-nhat);
+  padding-top: 1.5rem;
+  border-top: 2px solid #404040;
   text-align: center;
 }
 .chan-bottom p {
-  font-size: var(--c-1);
-  color: var(--mau-trang-nhat);
+  font-size: 0.75rem;
+  color: #e5e5e5;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
